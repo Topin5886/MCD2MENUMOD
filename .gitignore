@@ -1,0 +1,20 @@
+# Environnement et caches Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Données créées à l'exécution (réglages, journaux, copies de sécurité des saves)
+userdata/
+
+# Icône du raccourci, régénérée par creer_raccourci.bat
+data/app.ico
+
+# Anciennes versions des profils et fichiers temporaires
+*.bak
+*.tmp
+
+# PyInstaller
+build/
+dist/
+*.spec

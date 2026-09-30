@@ -1,0 +1,11 @@
+# Dépendances d'exécution de MCD2 Item Forge (Python 3.12, 64 bits).
+
+# Interface graphique Qt 6. Le paquet « Essentials » suffit (QtCore, QtGui, QtWidgets)
+# et pèse bien moins lourd que le méta-paquet PySide6 complet.
+PySide6-Essentials>=6.7,<7
+
+# Détection du jeu : l'enregistrement est refusé tant qu'il tourne.
+psutil>=5.9
+
+# Validation des fichiers JSON (catalogue, réglages, registre des tags).
+pydantic>=2.6,<3
